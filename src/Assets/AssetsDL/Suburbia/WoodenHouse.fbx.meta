@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 20e5df719c660824eb2bd439a66a5c5e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 1stFloorDoors_HouseM1Tslats
+    100002: 1stFloorMesh_HouseM1Tslats
+    100004: 1stFloorWindowGlass_HouseM1Tslats
+    100006: Door01_HouseM1Tslats
+    100008: Door02_HouseM1Tslats
+    100010: DoorFront_HouseM1Tslats
+    100012: DoorHandle01_HouseM1Tslats
+    100014: DoorHandle02_HouseM1Tslats
+    100016: DoorHandleFront_HouseM1Tslats
+    100018: HouseM1Tslats
+    100020: Roof_HouseM1Tslats
+    100022: RoofMesh_HouseM1Tslats
+    100024: WindowGlass01_HouseM1Tslats
+    100026: WindowGlass02_HouseM1Tslats
+    100028: WindowGlass03_HouseM1Tslats
+    100030: WindowGlass04_HouseM1Tslats
+    100032: WindowGlass05_HouseM1Tslats
+    100034: //RootNode
+    100036: 1stFloor_HouseM1Tslats
+    100038: WalkwayWide_HouseM1Tslats
+    400000: 1stFloorDoors_HouseM1Tslats
+    400002: 1stFloorMesh_HouseM1Tslats
+    400004: 1stFloorWindowGlass_HouseM1Tslats
+    400006: Door01_HouseM1Tslats
+    400008: Door02_HouseM1Tslats
+    400010: DoorFront_HouseM1Tslats
+    400012: DoorHandle01_HouseM1Tslats
+    400014: DoorHandle02_HouseM1Tslats
+    400016: DoorHandleFront_HouseM1Tslats
+    400018: HouseM1Tslats
+    400020: Roof_HouseM1Tslats
+    400022: RoofMesh_HouseM1Tslats
+    400024: WindowGlass01_HouseM1Tslats
+    400026: WindowGlass02_HouseM1Tslats
+    400028: WindowGlass03_HouseM1Tslats
+    400030: WindowGlass04_HouseM1Tslats
+    400032: WindowGlass05_HouseM1Tslats
+    400034: //RootNode
+    400036: 1stFloor_HouseM1Tslats
+    400038: WalkwayWide_HouseM1Tslats
+    2300000: 1stFloorMesh_HouseM1Tslats
+    2300002: Door01_HouseM1Tslats
+    2300004: Door02_HouseM1Tslats
+    2300006: DoorFront_HouseM1Tslats
+    2300008: DoorHandle01_HouseM1Tslats
+    2300010: DoorHandle02_HouseM1Tslats
+    2300012: DoorHandleFront_HouseM1Tslats
+    2300014: RoofMesh_HouseM1Tslats
+    2300016: WindowGlass01_HouseM1Tslats
+    2300018: WindowGlass02_HouseM1Tslats
+    2300020: WindowGlass03_HouseM1Tslats
+    2300022: WindowGlass04_HouseM1Tslats
+    2300024: WindowGlass05_HouseM1Tslats
+    2300026: WalkwayWide_HouseM1Tslats
+    3300000: 1stFloorMesh_HouseM1Tslats
+    3300002: Door01_HouseM1Tslats
+    3300004: Door02_HouseM1Tslats
+    3300006: DoorFront_HouseM1Tslats
+    3300008: DoorHandle01_HouseM1Tslats
+    3300010: DoorHandle02_HouseM1Tslats
+    3300012: DoorHandleFront_HouseM1Tslats
+    3300014: RoofMesh_HouseM1Tslats
+    3300016: WindowGlass01_HouseM1Tslats
+    3300018: WindowGlass02_HouseM1Tslats
+    3300020: WindowGlass03_HouseM1Tslats
+    3300022: WindowGlass04_HouseM1Tslats
+    3300024: WindowGlass05_HouseM1Tslats
+    3300026: WalkwayWide_HouseM1Tslats
+    4300000: RoofMesh_HouseM1Tslats
+    4300002: WindowGlass01_HouseM1Tslats
+    4300004: WindowGlass02_HouseM1Tslats
+    4300006: WindowGlass03_HouseM1Tslats
+    4300008: WindowGlass04_HouseM1Tslats
+    4300010: WindowGlass05_HouseM1Tslats
+    4300012: DoorFront_HouseM1Tslats
+    4300014: DoorHandleFront_HouseM1Tslats
+    4300016: Door01_HouseM1Tslats
+    4300018: DoorHandle01_HouseM1Tslats
+    4300020: Door02_HouseM1Tslats
+    4300022: DoorHandle02_HouseM1Tslats
+    4300024: 1stFloorMesh_HouseM1Tslats
+    4300026: WalkwayWide_HouseM1Tslats
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 15
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
