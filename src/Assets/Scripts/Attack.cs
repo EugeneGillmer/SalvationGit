@@ -22,6 +22,6 @@ public class Attack : MonoBehaviour
         {
             Debug.Log("OUCH!");
             player.GetComponent<Stats>().HP -= GetComponent<Stats>().ATK;
-        }
+        }        
     }
 }
