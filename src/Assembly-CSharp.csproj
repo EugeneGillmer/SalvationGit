@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AssetsDL\Bench\Scripts\CameraOrbitScript.cs" />
+     <Compile Include="Assets\AssetsDL\JacquesCharacters\Scripts\Character\HeadMotion.cs" />
+     <Compile Include="Assets\AssetsDL\JacquesCharacters\Scripts\Character\HealthSystem.cs" />
+     <Compile Include="Assets\AssetsDL\JacquesCharacters\Scripts\Character\MouseLook.cs" />
+     <Compile Include="Assets\AssetsDL\JacquesCharacters\Scripts\Character\MovementRigidbody.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\EraserAmmo.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\PeaShooterAmmo.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\PenAmmo.cs" />
@@ -54,7 +58,6 @@
      <Compile Include="Assets\Scripts\Attack.cs" />
      <Compile Include="Assets\Scripts\Enable.cs" />
      <Compile Include="Assets\Scripts\HPBarScript.cs" />
-     <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PickupObject.cs" />
      <Compile Include="Assets\Scripts\Pickupable.cs" />
      <Compile Include="Assets\Scripts\ProjectileStick.cs" />
