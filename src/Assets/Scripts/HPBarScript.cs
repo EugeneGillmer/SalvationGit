@@ -19,7 +19,7 @@ public class HPBarScript : MonoBehaviour {
         if (character != null)
         {
             HPBar.rectTransform.sizeDelta = new Vector2((float)character.GetComponent<Stats>().HP, HPBar.GetComponent<RectTransform>().sizeDelta.y);
-            if (character.GetComponent<Stats>().HP < 0)
+            if (character.GetComponent<Stats>().HP < 0 && character.tag!="Player")
             {
                 Destroy(character.gameObject);
             }
