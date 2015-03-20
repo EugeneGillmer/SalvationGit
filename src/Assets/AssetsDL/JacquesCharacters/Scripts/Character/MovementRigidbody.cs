@@ -59,7 +59,7 @@ public class MovementRigidbody : MonoBehaviour
 		if(Input.GetKey ("d"))
 			PlayerRb.AddForce( transform.right * walkingSpeed, ForceMode.Force);
 		if(Input.GetKey ("space") && IsGrounded ())
-			PlayerRb.AddForce ( transform.up * jumpHeight, ForceMode.Force);
+            PlayerRb.velocity = transform.TransformDirection(0, jumpHeight, 0);
 
 		if(!IsGrounded())
 		{
