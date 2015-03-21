@@ -22,19 +22,22 @@ public class HPBarScript : MonoBehaviour {
         {
             if (character.tag == "Player")
             {
-                if (character.GetComponent<Stats>().HP > 0.5 * character.GetComponent<Stats>().MaxHP)
+                if (character.GetComponent<Stats>().HP > 0.5f * character.GetComponent<Stats>().MaxHP)
                 {
-                    HPBarRect.rectTransform.sizeDelta = new Vector2((float)character.GetComponent<Stats>().HP / character.GetComponent<Stats>().MaxHP * 100, HPBarRect.GetComponent<RectTransform>().sizeDelta.y);
+                    //hp - half maxHP / halfmaxHP * 100 = percentageWidth
+                    HPBarRect.rectTransform.sizeDelta = new Vector2(((float)character.GetComponent<Stats>().HP - 0.5f * character.GetComponent<Stats>().MaxHP) / 0.5f * character.GetComponent<Stats>().MaxHP *100, HPBarRect.GetComponent<RectTransform>().sizeDelta.y);
                 }
                 else
                 {
-                    HPBarCircle.fillAmount = (float)character.GetComponent<Stats>().HP / character.GetComponent<Stats>().MaxHP * 100;
+                    //gets amount of HP divided by max HP *100 * 2
+                    HPBarCircle.fillAmount = ((float)character.GetComponent<Stats>().HP / character.GetComponent<Stats>().MaxHP * 100)*2;
                 }
             }
             else
             {
                 HPBarRect.rectTransform.sizeDelta = new Vector2((float)character.GetComponent<Stats>().HP, HPBarRect.GetComponent<RectTransform>().sizeDelta.y);
             }
+            //destroy enemies if hp <= 0
             if (character.GetComponent<Stats>().HP <= 0 && character.tag != "Player")
             {
                 Destroy(character.gameObject);
