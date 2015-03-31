@@ -9,19 +9,22 @@ public class Attack : MonoBehaviour
         //ruler hits enemy
         if (col.transform.name == "Ruler" && this.transform.tag == "Enemy")
         {
-            GetComponent<Stats>().HP -= (int)col.gameObject.GetComponent<Rigidbody>().mass;//LATER put player's attack value in here
+			GetComponent<Stats>().HP -= player.GetComponent<Stats>().ATK;
         }        
         //projectile hits enemy
         if (col.transform.tag == "Projectile" && this.transform.tag == "Enemy")
         {
             GetComponent<Stats>().HP -= (int)(col.gameObject.GetComponent<Rigidbody>().mass*0.1f);//remove *0.1f later when actual stats are in place
-            Debug.Log("projectile hits enemy");
         }
         //enemy hits player
         if (this.transform.tag == "Enemy" && col.transform.tag == "Player")
         {
-            Debug.Log("OUCH!");
             player.GetComponent<Stats>().HP -= GetComponent<Stats>().ATK;
         }        
+		//0 means 0!
+		if (player.GetComponent<Stats> ().HP < 0)
+			player.GetComponent<Stats> ().HP = 0;
+		if (this.GetComponent<Stats> ().HP < 0)
+			this.GetComponent<Stats> ().HP = 0;
     }
 }

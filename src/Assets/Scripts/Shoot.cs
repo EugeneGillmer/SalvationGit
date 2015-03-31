@@ -48,51 +48,42 @@ public class Shoot : MonoBehaviour
             WeaponNumber += 1;
             if (WeaponNumber > 4)
                 WeaponNumber = 0;
-            //Debug.Log("WeaponNumber changed to " + WeaponNumber);
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0)
         {
             WeaponNumber -= 1;
             if (WeaponNumber < 0)
                 WeaponNumber = 4;
-            //Debug.Log("WeaponNumber changed to "+WeaponNumber);
         }
 
         //change weapon
         if (WeaponNumber == 0)
         {
             selectedWeapon = peaAmmo;
-            //Debug.Log(selectedWeapon.name + " Selected");
             peaShooter.transform.position = new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z);
-            //Debug.Log(peaShooter.name + " out");
             btnPea.Select();
         }
         else if (WeaponNumber > 0)
         {
             peaShooter.transform.position = hiddenPeaPosition;
-            //Debug.Log(peaShooter.name + " hidden");
             if (WeaponNumber == 1)
             {
                 selectedWeapon = eraser;
-                //Debug.Log(selectedWeapon.name + " Selected");
                 btnEraser.Select();
             }
             else if (WeaponNumber == 2)
             {
                 selectedWeapon = pen;
-                //Debug.Log(selectedWeapon.name + " Selected");
                 btnPen.Select();
             }
             else if (WeaponNumber == 3)
             {
                 selectedWeapon = projectile3;
-                //Debug.Log(selectedWeapon.name + " Selected");
                 btnP4.Select();
             }
             else if (WeaponNumber == 4)
             {
                 selectedWeapon = projectile4;
-                //Debug.Log(selectedWeapon.name + " Selected");
                 btnP5.Select();
             }
         }
@@ -157,6 +148,5 @@ public class Shoot : MonoBehaviour
         Rigidbody clone;
         clone = Instantiate(selWep, new Vector3(transform.position.x, transform.position.y - 1, transform.position.z), transform.rotation) as Rigidbody;
         clone.velocity = transform.TransformDirection(0, upSpeed, shotSpeed);
-        Debug.Log(" Fired");
     }
 }
