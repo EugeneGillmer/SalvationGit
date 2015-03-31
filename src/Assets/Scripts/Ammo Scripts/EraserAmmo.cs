@@ -21,7 +21,6 @@ public class EraserAmmo : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && player.GetComponent<Shoot>().WeaponNumber == 1)
         {
             eraserAmmo -= 1;
-            Debug.Log(eraserAmmo);
         }
         if (eraserAmmo < 0)
             eraserAmmo = 0;
