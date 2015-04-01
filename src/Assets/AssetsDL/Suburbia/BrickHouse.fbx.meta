@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 34b66d2e09896c946afd934d3186a852
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 1stFloor_HouseM1Tbrick
+    100002: 1stFloorDoors_HouseM1Tbrick
+    100004: 1stFloorMesh_HouseM1Tbrick
+    100006: 1stFloorWindowGlass_HouseM1Tbrick
+    100008: //RootNode
+    100010: Door01_HouseM1Tbrick
+    100012: Door02_HouseM1Tbrick
+    100014: DoorFront_HouseM1Tbrick
+    100016: DoorHandle01_HouseM1Tbrick
+    100018: DoorHandle02_HouseM1Tbrick
+    100020: DoorHandleFront_HouseM1Tbrick
+    100022: HouseM1Tbrick
+    100024: Roof_HouseM1Tbrick
+    100026: RoofMesh_HouseM1Tbrick
+    100028: WindowGlass01_HouseM1Tbrick
+    100030: WindowGlass02_HouseM1Tbrick
+    100032: WindowGlass03_HouseM1Tbrick
+    100034: WindowGlass04_HouseM1Tbrick
+    100036: WindowGlass05_HouseM1Tbrick
+    100038: WalkwayWide_HouseM1Tbrick
+    400000: 1stFloor_HouseM1Tbrick
+    400002: 1stFloorDoors_HouseM1Tbrick
+    400004: 1stFloorMesh_HouseM1Tbrick
+    400006: 1stFloorWindowGlass_HouseM1Tbrick
+    400008: //RootNode
+    400010: Door01_HouseM1Tbrick
+    400012: Door02_HouseM1Tbrick
+    400014: DoorFront_HouseM1Tbrick
+    400016: DoorHandle01_HouseM1Tbrick
+    400018: DoorHandle02_HouseM1Tbrick
+    400020: DoorHandleFront_HouseM1Tbrick
+    400022: HouseM1Tbrick
+    400024: Roof_HouseM1Tbrick
+    400026: RoofMesh_HouseM1Tbrick
+    400028: WindowGlass01_HouseM1Tbrick
+    400030: WindowGlass02_HouseM1Tbrick
+    400032: WindowGlass03_HouseM1Tbrick
+    400034: WindowGlass04_HouseM1Tbrick
+    400036: WindowGlass05_HouseM1Tbrick
+    400038: WalkwayWide_HouseM1Tbrick
+    2300000: 1stFloorMesh_HouseM1Tbrick
+    2300002: Door01_HouseM1Tbrick
+    2300004: Door02_HouseM1Tbrick
+    2300006: DoorFront_HouseM1Tbrick
+    2300008: DoorHandle01_HouseM1Tbrick
+    2300010: DoorHandle02_HouseM1Tbrick
+    2300012: DoorHandleFront_HouseM1Tbrick
+    2300014: RoofMesh_HouseM1Tbrick
+    2300016: WindowGlass01_HouseM1Tbrick
+    2300018: WindowGlass02_HouseM1Tbrick
+    2300020: WindowGlass03_HouseM1Tbrick
+    2300022: WindowGlass04_HouseM1Tbrick
+    2300024: WindowGlass05_HouseM1Tbrick
+    2300026: WalkwayWide_HouseM1Tbrick
+    3300000: 1stFloorMesh_HouseM1Tbrick
+    3300002: Door01_HouseM1Tbrick
+    3300004: Door02_HouseM1Tbrick
+    3300006: DoorFront_HouseM1Tbrick
+    3300008: DoorHandle01_HouseM1Tbrick
+    3300010: DoorHandle02_HouseM1Tbrick
+    3300012: DoorHandleFront_HouseM1Tbrick
+    3300014: RoofMesh_HouseM1Tbrick
+    3300016: WindowGlass01_HouseM1Tbrick
+    3300018: WindowGlass02_HouseM1Tbrick
+    3300020: WindowGlass03_HouseM1Tbrick
+    3300022: WindowGlass04_HouseM1Tbrick
+    3300024: WindowGlass05_HouseM1Tbrick
+    3300026: WalkwayWide_HouseM1Tbrick
+    4300000: RoofMesh_HouseM1Tbrick
+    4300002: 1stFloorMesh_HouseM1Tbrick
+    4300004: DoorFront_HouseM1Tbrick
+    4300006: DoorHandleFront_HouseM1Tbrick
+    4300008: Door01_HouseM1Tbrick
+    4300010: DoorHandle01_HouseM1Tbrick
+    4300012: Door02_HouseM1Tbrick
+    4300014: DoorHandle02_HouseM1Tbrick
+    4300016: WindowGlass01_HouseM1Tbrick
+    4300018: WindowGlass02_HouseM1Tbrick
+    4300020: WindowGlass03_HouseM1Tbrick
+    4300022: WindowGlass04_HouseM1Tbrick
+    4300024: WindowGlass05_HouseM1Tbrick
+    4300026: WalkwayWide_HouseM1Tbrick
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 15
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
