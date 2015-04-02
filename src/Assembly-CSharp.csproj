@@ -59,7 +59,6 @@
      <Compile Include="Assets\AssetsDL\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\AssetsDL\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\AssetsDL\Water\Water\Scripts\WaterTile.cs" />
-     <Compile Include="Assets\ReplenishHP.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\EraserAmmo.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\PeaShooterAmmo.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\PenAmmo.cs" />
@@ -71,6 +70,7 @@
      <Compile Include="Assets\Scripts\Pickupable.cs" />
      <Compile Include="Assets\Scripts\ProjectileStick.cs" />
      <Compile Include="Assets\Scripts\Reloader.cs" />
+     <Compile Include="Assets\Scripts\ReplenishHP.cs" />
      <Compile Include="Assets\Scripts\Shoot.cs" />
      <Compile Include="Assets\Scripts\Stats.cs" />
      <Compile Include="Assets\Scripts\SwitchScene.cs" />
