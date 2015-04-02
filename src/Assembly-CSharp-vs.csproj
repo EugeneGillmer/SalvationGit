@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Ammo Scripts\PenAmmo.cs" />
      <Compile Include="Assets\Scripts\AttachHpBar.cs" />
      <Compile Include="Assets\Scripts\Attack.cs" />
+     <Compile Include="Assets\Scripts\DetectandFollow.cs" />
      <Compile Include="Assets\Scripts\Enable.cs" />
      <Compile Include="Assets\Scripts\HPBarScript.cs" />
      <Compile Include="Assets\Scripts\PickupObject.cs" />
