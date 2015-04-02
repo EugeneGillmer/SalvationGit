@@ -59,6 +59,7 @@
      <Compile Include="Assets\AssetsDL\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\AssetsDL\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\AssetsDL\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\ReplenishHP.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\EraserAmmo.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\PeaShooterAmmo.cs" />
      <Compile Include="Assets\Scripts\Ammo Scripts\PenAmmo.cs" />

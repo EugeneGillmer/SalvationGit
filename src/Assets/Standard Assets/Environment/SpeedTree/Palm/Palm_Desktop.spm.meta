@@ -45,6 +45,7 @@ SpeedTreeImporter:
   enableSmoothLODTransition: 1
   billboardTransitionCrossFadeWidth: .25
   fadeOutWidth: .25
-  scaleFactor: .304800004
+  scaleFactor: 2
   userData: 
   assetBundleName: 
+  assetBundleVariant: 
