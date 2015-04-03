@@ -64,11 +64,13 @@
      <Compile Include="Assets\Scripts\Ammo Scripts\PenAmmo.cs" />
      <Compile Include="Assets\Scripts\AttachHpBar.cs" />
      <Compile Include="Assets\Scripts\Attack.cs" />
+     <Compile Include="Assets\Scripts\Destroyable.cs" />
      <Compile Include="Assets\Scripts\DetectandFollow.cs" />
      <Compile Include="Assets\Scripts\Enable.cs" />
      <Compile Include="Assets\Scripts\HPBarScript.cs" />
      <Compile Include="Assets\Scripts\PickupObject.cs" />
      <Compile Include="Assets\Scripts\Pickupable.cs" />
+     <Compile Include="Assets\Scripts\PieceBehaviour.cs" />
      <Compile Include="Assets\Scripts\ProjectileStick.cs" />
      <Compile Include="Assets\Scripts\Reloader.cs" />
      <Compile Include="Assets\Scripts\ReplenishHP.cs" />
@@ -76,6 +78,7 @@
      <Compile Include="Assets\Scripts\Stats.cs" />
      <Compile Include="Assets\Scripts\SwitchScene.cs" />
      <Compile Include="Assets\Scripts\TESTFallOffMap.cs" />
+     <Compile Include="Assets\Scripts\TESTShoot.cs" />
      <Compile Include="Assets\Scripts\VendingMachineScript.cs" />
      <None Include="Assets\AssetsDL\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />

@@ -61,7 +61,7 @@ public class Shoot : MonoBehaviour
         {
             selectedWeapon = peaAmmo;
             peaShooter.transform.position = new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z);
-            btnPea.Select();
+            //btnPea.Select();
         }
         else if (WeaponNumber > 0)
         {
@@ -69,22 +69,22 @@ public class Shoot : MonoBehaviour
             if (WeaponNumber == 1)
             {
                 selectedWeapon = eraser;
-                btnEraser.Select();
+                //btnEraser.Select();
             }
             else if (WeaponNumber == 2)
             {
                 selectedWeapon = pen;
-                btnPen.Select();
+                //btnPen.Select();
             }
             else if (WeaponNumber == 3)
             {
                 selectedWeapon = projectile3;
-                btnP4.Select();
+                //btnP4.Select();
             }
             else if (WeaponNumber == 4)
             {
                 selectedWeapon = projectile4;
-                btnP5.Select();
+                //btnP5.Select();
             }
         }
      
