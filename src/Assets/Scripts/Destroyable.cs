@@ -26,16 +26,17 @@ public class Destroyable : MonoBehaviour {
 
             for (int x = 0; x < random; x++)
             {
-                random = Random.Range(-10, 10);
+                random = Random.Range(-2, 2);
                 Rigidbody clone;
                 clone = Instantiate(piece, new Vector3(transform.position.x+random,transform.position.y+2,transform.position.z+random), transform.rotation) as Rigidbody;
                 clone.velocity = transform.TransformDirection(random, 4, random);
 
                 Destroy(clone.gameObject, lifetime);
             }
-            //disable sight and collision of object
+            //disable sight and collision of destroyable;
             gameObject.GetComponent<MeshRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider>().enabled = false;
+            Destroy(this.gameObject, 2);
         }
     }
 }
