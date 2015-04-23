@@ -80,6 +80,7 @@
      <Compile Include="Assets\Scripts\TESTFallOffMap.cs" />
      <Compile Include="Assets\Scripts\TESTShoot.cs" />
      <Compile Include="Assets\Scripts\VendingMachineScript.cs" />
+     <Compile Include="Assets\thing.cs" />
      <None Include="Assets\AssetsDL\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
