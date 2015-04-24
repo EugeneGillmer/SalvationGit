@@ -56,6 +56,7 @@ public class HPBarScript : MonoBehaviour
             {
                 Destroy(character.gameObject);
                 Destroy(HPBarRect.gameObject);
+                Destroy(HPBarCircle.gameObject);
             }
         }
     }
