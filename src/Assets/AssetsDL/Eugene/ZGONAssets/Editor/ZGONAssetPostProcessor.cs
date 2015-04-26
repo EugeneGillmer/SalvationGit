@@ -118,7 +118,7 @@ class ZGONAssetPostProcessor : AssetPostprocessor
 		
 		// Disable auto generated materials
 		ModelImporter importer = (ModelImporter)assetImporter;
-		importer.generateMaterials = ModelImporterGenerateMaterials.None;
+        importer.importMaterials = false;
 		importer.swapUVChannels = false;
 		importer.generateAnimations = ModelImporterGenerateAnimations.None;
 		importer.tangentImportMode = ModelImporterTangentSpaceMode.None;
@@ -269,8 +269,8 @@ class ZGONAssetPostProcessor : AssetPostprocessor
 	void SetupPrefab(GameObject gameObject, Material material)
 	{
 		string prefabPath = _meshsetRootDir + "/" + _prefabDirName + "/" + gameObject.name + ".prefab";
-		UnityEngine.Object prefab = EditorUtility.CreateEmptyPrefab(prefabPath);
-		EditorUtility.ReplacePrefab(gameObject, prefab);
+        UnityEngine.Object prefab = PrefabUtility.CreateEmptyPrefab(prefabPath);
+		PrefabUtility.ReplacePrefab(gameObject, prefab);
 	}
 	
 	Material SetupMaterial(GameObject gameObject)

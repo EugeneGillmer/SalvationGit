@@ -63,7 +63,7 @@ public class Stats : MonoBehaviour
         {
             jumpHeight = jumpHeight + 0.1f * jumpHeight;
             dashDmg = dashDmg + 0.1f * dashDmg;
-            dashRegen = dashRegen = 0.1f * dashRegen;
+            dashRegen = dashRegen + 0.1f * dashRegen;
 
             nextMCLevel = nextMCLevel * 2;
         }
